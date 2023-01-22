@@ -2,9 +2,8 @@ body {
     
     background-size: cover;
 
-    
+    font-size: 20px;
     margin: 0;
-    
 
     width: 100%;
     height: auto;
@@ -13,7 +12,10 @@ body {
     color:white;
     
 }
-
+h1 {
+    font-weight: 350;
+    
+}
 .header {
     text-align: center;
     margin-right: 20%;
@@ -33,7 +35,6 @@ form {
     padding-top:45px ;
     padding-bottom:100px ;
     border-radius: 10px;
-    
 
 }
 
@@ -45,8 +46,6 @@ form *{
 
 form select option{
     margin-top: 10px;
-   
-
 }
 
 #name-label,#email-label,#number-label,#dropdown {
@@ -62,7 +61,8 @@ form select option{
     background-color: green;
     border-style: none;
     color: white;
-
-
+    border-radius: 5px;
+    font-size: larger;
 }
+
 
